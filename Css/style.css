@@ -1,0 +1,129 @@
+@import url("Components/flexboxs.css");
+@import url(Components/index_buttons.css);
+
+/*Page Index.html*/ 
+body {
+    background-color: floralwhite;
+}
+
+.header {
+    display: flex;
+    justify-content:center; 
+}
+
+
+h1 {
+    font-size: 40px;
+    color: crimson;
+    text-align: center;
+}
+
+.banner-CV {
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../Images/CV_Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    padding: 100px 50px;
+    box-shadow: 5px -5px indianred;
+    margin: 20px;
+}
+
+.banner-CV-content {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    margin: auto;
+}
+
+.banner-Portfolio {
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("../Images/Portfolio_Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    padding: 100px 50px;
+    box-shadow: 5px -5px indianred;
+    margin: 20px;
+}
+
+.banner-Portfolio-content {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    text-align: center;
+    margin: auto;
+}
+footer {
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    margin:0;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*Page CV.html*/    
+
+h2 {
+    font-size: 35px;
+    margin:0;
+    font-family: system-ui;
+}
+
+#intro {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+#intro p{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    font-family: system-ui;
+}
+
+#zone-photo {
+    width: 100%;
+    display: flex;
+}
+
+#photo-moi {
+    width: 10%;
+    margin: auto;
+}
+
+/* REsponsive de la photo*/
+
+@media screen and (max-width: 600px) {
+  #photo-moi {
+    display: none;
+  }
+}
+
+#RS {
+    display: flex;
+    justify-content: center;
+    font-family: system-ui;
+}
+
+#RS p{
+    text-align: center;
+}
+
+#scolaire{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#intro-diplome {
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+.Diplomes{
+    font-size: 20px;
+    font-family: system-ui;
+}
